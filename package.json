@@ -1,0 +1,19 @@
+{
+  "name": "countryside",
+  "version": "1.0.0",
+  "description": "Rest in countryside",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "node-sass sass/main.scss css/style.css -w"
+  },
+  "author": "Nikola",
+  "license": "ISC",
+  "devDependencies": {
+    "node-sass": "^4.7.2"
+  },
+  "dependencies": {
+    "bootstrap": "^4.0.0",
+    "jquery": "^3.3.1",
+    "jshint": "^2.9.5"
+  }
+}

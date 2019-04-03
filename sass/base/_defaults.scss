@@ -1,0 +1,57 @@
+html {
+  font-family: $default-font;
+}
+
+hr {
+  width: 1000px;
+  height: 1px;
+  background-color: rgba($color-primary, .4);
+  margin: 50px auto;
+}
+
+.row {
+  padding: 0;
+  margin: 0;
+}
+
+h1 {
+  letter-spacing: 3px;
+}
+
+h2 {
+  color: $color-orange;
+  text-transform: uppercase;
+  font-weight: 100;
+}
+
+h5 {
+  text-align: center;
+  font-weight: 300;
+  padding: 10px 0;
+}
+
+p {
+  margin: 0;
+  color: $color-primary-dark;
+}
+
+.col-md-6 {
+  padding: 0;
+}
+
+.col-sm-12 {
+  padding: 0;
+}
+
+@media (max-width: 1024px) {
+  
+  hr {
+    width: 80%;
+  }
+}
+
+@media (max-width: 768px) {
+  h2 {
+    text-align: center;
+  }
+}

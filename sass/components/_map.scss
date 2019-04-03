@@ -1,0 +1,23 @@
+.map {
+  margin: auto;
+  & h2 {
+    padding-bottom: 30px;
+    text-align: center;
+    color: $color-orange;
+  }
+}
+
+#map {
+  height: 500px;
+  background-color: grey;
+  width: 80%;
+  box-shadow: 2px 2px 15px grey;
+  display: block;
+  margin: auto;
+}
+
+@media (max-width: 500px) {
+  #map {
+    height: 400px;
+  }
+}

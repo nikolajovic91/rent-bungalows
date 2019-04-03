@@ -1,0 +1,67 @@
+.icon-bar {
+  position: fixed;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+.icon-bar a {
+  display: block;
+  text-align: center;
+  padding: 10px;
+  transition: all 0.3s ease;
+  color: white;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.icon-bar a:hover {
+  cursor: pointer;
+}
+
+.facebook {
+  background: #3B5998;
+  color: white;
+  &:hover {
+    background: darken($color: #3B5998, $amount: 20%)
+  }
+}
+
+.instagram {
+  background: #55ACEE;
+  color: white;
+  &:hover {
+    background: darken($color: #55ACEE, $amount: 20%)
+  }
+}
+
+.google {
+  background: #dd4b39;
+  color: white;
+  &:hover {
+    background: darken($color: #dd4b39, $amount: 20%)
+  }
+}
+
+.email {
+  background: #007bb5;
+  color: white;
+  &:hover {
+    background: darken($color: #007bb5, $amount: 20%)
+  }
+}
+
+.youtube {
+  background: #bb0000;
+  color: white;
+  &:hover {
+    background: darken($color: #bb0000, $amount: 20%)
+  }
+}
+
+@media (max-width: 768px) {
+  .icon-bar {
+    display: none;
+  }
+}

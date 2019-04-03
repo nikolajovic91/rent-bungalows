@@ -1,0 +1,405 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Rent bungalow</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://fonts.googleapis.com/css?family=Inconsolata:400,700" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Nunito:200,300,400,700" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" media="screen" href="node_modules/bootstrap/dist/css/bootstrap.min.css" />
+  <link rel="stylesheet" type="text/css" media="screen" href="css/style.css" />
+  <script src="https://use.fontawesome.com/681cac6bcd.js"></script>
+  <script src="js/app.js"></script>
+</head>
+
+<body>
+
+  <div class="section-header">
+
+    <!-- navbar -->
+    <div class="row">
+      <div class="col-sm-12">
+
+        <div class="topnav" id="navBar">
+          <div>
+            <a class="nav-logo" href="#">
+              <img src="./css/img/logo.jpg" alt="" style="height:40px">
+            </a>
+          </div>
+          <div class="nav-down">
+            <a href="#home">Home</a>
+            <a href="#news">About</a>
+            <a href="#contact">Cities</a>
+            <a href="#about">Contact us</a>
+            <a href="#about">Find us</a>
+            <a href="javascript:void(0);" class="icon" onclick="mobNav()">
+              <i class="fa fa-bars"></i>
+            </a>
+          </div>
+
+        </div>
+
+      </div>
+    </div>
+
+    <div class="row">
+
+      <div class="icon-bar">
+        <a href="#" class="facebook">
+          <i class="fa fa-facebook-square" aria-hidden="true"></i>
+        </a>
+        <a href="#" class="instagram">
+          <i class="fa fa-instagram" aria-hidden="true"></i>
+        </a>
+        <a href="#" class="google">
+          <i class="fa fa-google-plus-square" aria-hidden="true"></i>
+        </a>
+        <a href="#" class="youtube">
+          <i class="fa fa-youtube-square" aria-hidden="true"></i>
+        </a>
+        <a href="#" class="email">
+          <i class="fa fa-envelope-square" aria-hidden="true"></i>
+        </a>
+      </div>
+    </div>
+
+    <div class="main-header">
+      <h1>Expirience countryside
+        <br>
+        <span>in beautiful bungalows and houses</span>
+      </h1>
+    </div>
+  </div>
+
+  <div class="city">
+    <div class="row">
+      <div class="col-md-4">
+        <div class="city-box">
+          <a href="#">
+            <img src="./css/img/house1.jpg" alt="" class="city-img">
+          </a>
+          <h5>Aysgarth, Yorkshire</h5>
+          <p class="city-paragraph">The village at the south back of the River Ure is home to one of Britain's most beautiful waterfalls - Aysgarth
+            Falls. Split into three levels, the falls ar best known in British movies.</p>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="city-box">
+          <a href="#">
+            <img src="./css/img/house2.jpg" alt="" class="city-img">
+          </a>
+          <h5>Alfriston, East Sussex</h5>
+          <p class="city-paragraph">If you are in the South Downs National Park or exploring the Cuckmere Valley, be sure to call in at Alfriston.
+            There is a bristle of Costwolds posh about it these days but dont be put off.</p>
+        </div>
+      </div>
+      <!-- <div class="col-md-3">
+        <div class="city-box">
+          <a href="#">
+            <img src="./css/img/house3.jpg" alt="" class="city-img">
+          </a>
+          <h5>Blockley, Gloucestershire</h5>
+          <p class="city-paragraph">A hidden gem, this is dreamy village snuggles into a lush valley beside the Blockley brook. Many of Buildings testify
+            to Blockley's past as a centre for silk-weaving in 1880s.</p>
+        </div>
+      </div> -->
+      <div class="col-md-4">
+        <div class="city-box">
+          <a href="#">
+            <img src="./css/img/house4.jpg" alt="" class="city-img">
+          </a>
+          <h5>Hawkshead, Cumbria</h5>
+          <p class="city-paragraph">One of the biggest draws for tourists in the southern Lake District, Hawkshead is filed with 17th-centry architecture,
+            boast a handsome church dating back to 1300 and several pubs.</p>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  <hr>
+
+  <div class="welcome">
+    <div class="row">
+      <div class="col-sm-12 col-md-6">
+        <div class="welcome-text">
+          <h2>Welcome</h2>
+          <div>
+            <input type="checkbox" class="read-more-state" id="post-1" />
+            <p class="read-more-wrap">It’s important to know that the countryside is so perfectly good looking because it was engineered to be that
+              way. One feature of the British countryside that is mostly lost on Americans is its artificiality. It was created
+              via landscaping over hundreds of years by the British people, whose thousand-year-long obsession with gardening
+              is only eclipsed by their love of small cakes with raisins. In America, we're familiar with the pride suburban
+              people have for their front lawn.
+              <span class="read-more-target"> The difference here is momentous. American "nature preserves" are raw, unspoiled land that has looked the same
+                way for eons. We preserve it precisely so it stays that way. In contrast, British "nature preserves" are
+                completely spoilt by human interference dating back thousands of years. But they're preserved because they've
+                reached some captivating state of in-betweenness that looks like something from a storybook.
+              </span>
+            </p>
+            <label for="post-1" class="read-more-trigger"></label>
+          </div>
+
+        </div>
+      </div>
+      <div class="col-sm-12 col-md-6">
+        <div class="welcome-img">
+          <div class="welcome-img__box">
+            <img src="./css/img/welcome-img.jpg" alt="Welcome Image">
+            <p>british_countryside:
+              <span>@example-user beautiful countryside
+                <br> #hash1 #hash2</span>
+            </p>
+            <p class="italic">Posted 1 hour ago - via Instagram</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <hr>
+
+  <div class="places">
+    <div class="row">
+      <div class="col-md-6">
+        <div class="places-text">
+          <div class="welcome-text">
+            <h2>Aysgarth, Yorkshire</h2>
+            <div>
+              <p class="read-more-wrap">It’s important to know that the countryside is so perfectly good looking because it was engineered to be that
+                way. One feature of the British countryside that is mostly lost on Americans is its artificiality. It was
+                created via landscaping over hundreds of years by the British people, whose thousand-year-long obsession
+                with gardening is only eclipsed by their love of small cakes with raisins. In America, we're familiar with
+                the pride suburban people have for their front lawn. To get a sense of the project that is the British countryside,
+                imagine that same pride except the lawn is not a little area in front of your house, the lawn is the entire
+                country, and these crazy chaps have been fussing with the hedgerows since the fall of the Roman Empire.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-6">
+        <div class="places-slide">
+
+          <div class="container">
+
+            <!-- Full-width images with number text -->
+            <div class="mySlides">
+              <img src="./css/img/slides/1.jpg" style="width:100%">
+            </div>
+
+            <div class="mySlides">
+              <img src="./css/img/slides/2.jpg" style="width:100%">
+            </div>
+
+            <div class="mySlides">
+              <img src="./css/img/slides/3.jpg" style="width:100%">
+            </div>
+
+            <div class="mySlides">
+              <img src="./css/img/slides/4.jpg" style="width:100%">
+            </div>
+
+
+            <!-- Next and previous buttons -->
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+            <!-- Thumbnail images -->
+            <div class="row">
+              <div class="column">
+                <img class="demo cursor" src="./css/img/slides/1.jpg" style="width:100%" onclick="currentSlide(1)" alt="1">
+              </div>
+              <div class="column">
+                <img class="demo cursor" src="./css/img/slides/2.jpg" style="width:100%" onclick="currentSlide(2)" alt="Trolltunga, Norway">
+              </div>
+              <div class="column">
+                <img class="demo cursor" src="./css/img/slides/3.jpg" style="width:100%" onclick="currentSlide(3)" alt="Mountains and fjords">
+              </div>
+              <div class="column">
+                <img class="demo cursor" src="./css/img/slides/4.jpg" style="width:100%" onclick="currentSlide(4)" alt="Northern Lights">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <hr>
+
+    <div class="row">
+      <div class="col-md-6">
+        <div class="places-text">
+          <div class="welcome-text">
+            <h2>Alfriston, Sussex</h2>
+            <div>
+              <p class="read-more-wrap">It’s important to know that the countryside is so perfectly good looking because it was engineered to be that
+                way. One feature of the British countryside that is mostly lost on Americans is its artificiality. It was
+                created via landscaping over hundreds of years by the British people, whose thousand-year-long obsession
+                with gardening is only eclipsed by their love of small cakes with raisins. In America, we're familiar with
+                the pride suburban people have for their front lawn. To get a sense of the project that is the British countryside,
+                imagine that same pride except the lawn is not a little area in front of your house, the lawn is the entire
+                country, and these crazy chaps have been fussing with the hedgerows since the fall of the Roman Empire.
+
+              </p>
+
+            </div>
+
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-6">
+        <div class="places-slide">
+
+          <div class="gallery cf">
+            <div>
+              <img src="./css/img/slides/1.jpg" />
+            </div>
+            <div>
+              <img src="./css/img/slides/2.jpg" />
+            </div>
+            <div>
+              <img src="./css/img/slides/3.jpg" />
+            </div>
+            <div>
+              <img src="./css/img/slides/4.jpg" />
+            </div>
+
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    <hr>
+
+    <div class="row">
+      <div class="col-md-6">
+        <div class="places-text">
+          <div class="welcome-text">
+            <h2>Hawkshead, Cumbria</h2>
+            <div>
+              <p class="read-more-wrap">It’s important to know that the countryside is so perfectly good looking because it was engineered to be that
+                way. One feature of the British countryside that is mostly lost on Americans is its artificiality. It was
+                created via landscaping over hundreds of years by the British people, whose thousand-year-long obsession
+                with gardening is only eclipsed by their love of small cakes with raisins. In America, we're familiar with
+                the pride suburban people have for their front lawn. To get a sense of the project that is the British countryside,
+                imagine that same pride except the lawn is not a little area in front of your house, the lawn is the entire
+                country, and these crazy chaps have been fussing with the hedgerows since the fall of the Roman Empire.
+
+              </p>
+
+            </div>
+
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-6">
+        <div class="places-slide">
+          <div class="slider">
+            <figure>
+              <img src="./css/img/slides/1.jpg" alt>
+              <img src="./css/img/slides/2.jpg" alt>
+              <img src="./css/img/slides/3.jpg" alt>
+              <img src="./css/img/slides/4.jpg" alt>
+            </figure>
+          </div>
+
+        </div>
+
+      </div>
+    </div>
+
+    <hr>
+
+    <div class="form">
+      <h2>We are to happy from you</h2>
+      <form action="action_page.php">
+
+        <input type="text" name="firstname" placeholder="Your name...">
+
+        <input type="text" name="email" placeholder="Your e-mail...">
+
+        <select id="hear" name="hear">
+          <option value="" disabled selected>How did you hear about us?</option>
+          <option value="booking">Booking</option>
+          <option value="facebook">Facebook</option>
+          <option value="twiter">Twitter</option>
+          <option value="airbnb">Airbnb</option>
+          <option value="tip">TripAdvisor</option>
+        </select>
+
+        <textarea id="subject" name="subject" placeholder="Your message..." style="height:200px"></textarea>
+        <label>
+          <input type="checkbox" checked="checked" name="newsleter"> Newsletter?
+        </label>
+        <input type="submit" value="Submit">
+
+      </form>
+
+    </div>
+
+
+    <hr>
+
+    <div class="map" id="map-scroll">
+      <h2>How to find us?</h2>
+      <div class="row ">
+        <div class="col-sm-12">
+          <div id="map"></div>
+        </div>
+      </div>
+    </div>
+
+    <hr>
+
+
+    <footer class="footer">
+      <div class="footer__logo-box">
+        <img src="./css/img/logo.jpg" alt="Logo" class="footer__logo">
+      </div>
+      <div class="row">
+        <div class="col-sm-12">
+          <div class="footer__navigation">
+            <ul class="footer__list">
+              <li class="footer__item">
+                <a href="#" class="footer__link">Company</a>
+              </li>
+              <li class="footer__item">
+                <a href="#" class="footer__link">Contact us</a>
+              </li>
+              <li class="footer__item">
+                <a href="#" class="footer__link">Carrers</a>
+              </li>
+              <li class="footer__item">
+                <a href="#" class="footer__link">Private policy</a>
+              </li>
+              <li class="footer__item">
+                <a href="#" class="footer__link">Terms</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-sm-12">
+          <p class="footer__copyright">
+            Built by
+            <a href="#" class="footer__link">Nikola Jovic</a> All rights reserved.
+          </p>
+        </div>
+      </div>
+    </footer>
+
+  </div>
+
+
+
+  <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBtHHKRuQU4GtoShDOaXCuvkVmEuROrvJw&callback=initMap">
+  </script>
+</body>
+
+</html>

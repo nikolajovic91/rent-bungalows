@@ -1,0 +1,17 @@
+.italic {
+  font-style: italic;
+}
+
+.push-down {
+  margin-top: 70px;
+}
+
+.nav-down {
+  margin-top: 5px;
+}
+
+@media (max-width: 550px) {
+  .nav-down {
+    margin-top: 0;
+  }
+}

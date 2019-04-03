@@ -1,0 +1,39 @@
+.read-more {
+  &-state {
+    display: none;
+  }
+  &-target {
+    opacity: 0;
+    max-height: 0;
+    font-size: 0;
+    transition: 0.2s linear;
+  }
+  &-trigger {
+    cursor: pointer;
+    display: block;
+    margin: 0 auto;
+    color: orangered;
+    font-size: 0.9em;
+    line-height: 2;
+    font-style: italic;
+    font-weight: 700;
+    text-align: center;
+    &:hover {
+      color: lighten(orangered, 15%);
+    }
+  }
+}
+
+.read-more-state:checked~.read-more-wrap .read-more-target {
+  opacity: 1;
+  font-size: inherit;
+}
+
+.read-more-state~.read-more-trigger:before {
+  content: "Show more";
+  text-align: center;
+}
+
+.read-more-state:checked~.read-more-trigger:before {
+  content: "Show less";
+}
